@@ -1,0 +1,27 @@
+{
+  "name": "redia",
+  "version": "0.0.1",
+  "description": "Testing media performance of a redis cluster.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/streampunk/redia.git"
+  },
+  "keywords": [
+    "Redis",
+    "cluster",
+    "media"
+  ],
+  "author": "Streampunk Media <furnace@streampunk.media> (http://www.streampunk.media)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/streampunk/redia/issues"
+  },
+  "homepage": "https://github.com/streampunk/redia#readme",
+  "dependencies": {
+    "ioredis": "^3.2.2"
+  }
+}
