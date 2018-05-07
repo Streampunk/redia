@@ -1,0 +1,16 @@
+Roundtripped 1080i50 V210 simulated 100 frames write time 0.022748896520000002 read time 0.01130522825.
+100
+
+Roundtripped 1080i50 V210 parallel simulated 100 frames write time 0.01310201511 read time 0.00971127429.
+Roundtripped 1080i50 4:2:2 16-bit simulated 100 frames write time 0.03197534932 read time 0.016536631189999994.
+100
+100
+Roundtripped 1080i50 4:2:2 16-bit parallel simulated 100 frames write time 0.020503781619999998 read time 0.01503321028.
+Roundtripped 4kp50 V210 simulated 100 frames write time 0.06994941424999998 read time 0.04075506997000002.
+100
+100
+Roundtripped 4kp50 V210 parallel simulated 100 frames write time 0.05373196947 read time 0.03650849499.
+Roundtripped 720p60 V210 simulated 100 frames write time 0.008036634640000002 read time 0.004924504100000001.
+100
+100
+Roundtripped 720p60 V210 parallel simulated 100 frames write time 0.00522964863 read time 0.0038669405299999998.
