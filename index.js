@@ -14,11 +14,11 @@
 */
 
 const Redis = require('ioredis');
-let redis = new Redis(isNaN(+process.argv[2]) ? 6379 : +process.argv[2], process.argv[3]);
-/* let redis = new Redis.Cluster([{
-  port: 6379,
-  host: 'redia.8y9mz8.clustercfg.euw1.cache.amazonaws.com'
-}], { scaleReads: 'all' }); */
+// let redis = new Redis(isNaN(+process.argv[2]) ? 6379 : +process.argv[2], process.argv[3]);
+let redis = new Redis.Cluster([{
+  port: isNaN(+process.argv[2]) ? 6379 : +process.argv[2],
+  host: process.argv[3]
+}], { scaleReads: 'all' });
 
 function makeKeys(n) {
   let keys = [];
