@@ -7,7 +7,7 @@ The target cluster of these tests is the [AWS Elasticache for Redis](https://aws
 
 ### Set up a redis cluster
 
-![redis replication diagram][redis_replication.png]
+![redis replication diagram](redis_replication.png)
 
 A redis cluster can be set up using the AWS Elasticache dashboard as described [here](https://docs.aws.amazon.com/AmazonElastiCache/latest/red-ug/GettingStarted.html). Choose a network speed appropriate for the tests, for example _Up to 10 Gigabit_ is required for testing simulated HD media.
 
